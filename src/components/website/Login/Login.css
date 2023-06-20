@@ -1,0 +1,171 @@
+.login-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #e3f0e3;
+}
+
+.login-body .formcontent {
+  margin: 20px;
+}
+
+#card {
+  width: 410px;
+  padding: 38px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+#card-title {
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+  color: black;
+}
+
+#card .form-control.login-form {
+  position: relative;
+  font-size: 13px;
+  color: #727482;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #4f69e4;
+  line-height: 2;
+}
+
+#card input.form-control.login-form {
+  box-shadow: none;
+}
+
+#forgot-pass {
+  color: #4f69e4;
+  font-family: "Raleway", sans-serif;
+  font-size: 10pt;
+  margin-top: 3px;
+  text-align: right;
+}
+
+.checkbox {
+  font-size: 10pt;
+  margin-top: 3px;
+  text-align: left;
+}
+
+.login-body button.btn.btn-default.login-btn {
+  background: #74d174;
+  box-shadow: 0px 4px 20px rgba(80, 77, 166, 0.35);
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  /* margin: 20px; */
+}
+
+.login-body .form-group {
+  position: relative;
+}
+
+.login-body .form-group .passImg_section {
+  position: absolute;
+  top: 15%;
+  z-index: 3;
+  right: 10px;
+}
+
+.login-body .form-group .passImg_section .passImg {
+  height: 20px;
+  width: 20px;
+}
+
+.login-body .form-group {
+  position: relative;
+  /* margin: 1rem; */
+  margin-top: 1rem;
+}
+.login-body small {
+  color: rgb(233, 93, 93);
+}
+
+.login-body .form-control {
+  border-radius: 0;
+  border-bottom: 2px solid #ccc;
+  transition: border-color 0.2s;
+  /* padding-top: 2rem; */
+  background-color: #fff;
+  border-color: var(---bluecolor) !important;
+  /* Adjust the value based on label height */
+}
+
+.login-body .form-control:focus {
+  border-color: #000;
+  background-color: #fff;
+  outline: none;
+}
+
+.login-body .form-group label {
+  position: absolute;
+  top: 22%;
+  left: 6%;
+  transition: all 0.2s;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #727482;
+  pointer-events: none;
+  transform-origin: top left;
+}
+
+.login-body .form-control:valid + label,
+.login-body .form-control:focus + label,
+.login-body .form-control:not(:placeholder-shown) + label {
+  transform: translateY(-100%) scale(0.85) translateY(-0.5rem);
+  opacity: 1;
+  position: absolute;
+  top: 49%;
+  left: 6%;
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #74d174;
+  background-color: #fff;
+}
+
+.login-body input:-webkit-autofill,
+.login-body input:-webkit-autofill:hover,
+.login-body input:-webkit-autofill:focus,
+.login-body input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.login-body .form-control::placeholder {
+  color: #ffffff !important;
+  /* Set the color for the placeholder */
+}
+
+.login-body textarea:focus,
+.login-body input[type="text"]:focus,
+.login-body input[type="password"]:focus,
+.login-body input[type="datetime"]:focus,
+.login-body input[type="datetime-local"]:focus,
+.login-body input[type="date"]:focus,
+.login-body input[type="month"]:focus,
+.login-body input[type="time"]:focus,
+.login-body input[type="week"]:focus,
+.login-body input[type="number"]:focus,
+.login-body input[type="email"]:focus,
+.login-body input[type="url"]:focus,
+.login-body input[type="search"]:focus,
+.login-body input[type="tel"]:focus,
+.login-body input[type="color"]:focus,
+.login-body .uneditable-input:focus {
+  /* border-color: var(---bluecolor) !important; */
+  box-shadow: 0 1px 1px #ffffff inset, 0 0 8px #ffffff;
+  outline: 0 none;
+}

@@ -1,0 +1,36 @@
+.Contact {
+  background: #f8f9fa;
+}
+
+.Contact .comment {
+  width: 50%;
+}
+
+.Contact .form-control {
+  border-radius: 20px;
+  text-indent: 10px;
+}
+
+.Contact .form-control:focus {
+  outline: none;
+}
+
+.Contact textarea {
+  resize: none;
+}
+
+.Contact button {
+  border-radius: 25px;
+  padding: 11px 32px;
+  border: none;
+  color: black;
+  font-weight: 600;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.12);
+  background-color: #74d174;
+}
+
+@media only screen and (max-width: 480px) {
+  .Contact .comment {
+    width: 100%;
+  }
+}

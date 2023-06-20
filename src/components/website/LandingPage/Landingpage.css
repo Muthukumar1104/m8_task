@@ -1,0 +1,27 @@
+.landingPage {
+  position: relative;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.landingPage .blob svg {
+  position: absolute;
+  top: -470px;
+  right: -580px;
+  width: 1500px;
+}
+
+@media only screen and (min-width: 768px) {
+  .landingPage .blob svg {
+    position: absolute;
+    top: -470px;
+    right: -750px;
+    width: 1500px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .landingPage .blob svg {
+    display: none;
+  }
+}

@@ -1,0 +1,144 @@
+.special_menu {
+  margin-top: 5%;
+  position: relative;
+}
+
+.special_menu h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.special_menu h6 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+}
+
+.special_menu .card .card-body h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.special_menu .card .card-body h6 {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+}
+
+.special_menu .leaf {
+  position: absolute;
+  z-index: -1;
+  right: 10px;
+  transform: rotate(180deg);
+}
+
+.special_menu .slick-slider {
+  /* padding: 2%; */
+  height: 100%;
+}
+.special_menu .slick-slider .card {
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.special_menu .card .card-body {
+  padding: 4% 10% 5% 10%;
+  position: relative;
+}
+
+.special_menu .card .card-body h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.special_menu .card .card-body h6 {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+}
+
+.special_menu .card .card-body img {
+  height: 220px;
+  width: 220px;
+  border: 12px solid #74d174;
+  border-radius: 50%;
+}
+
+.special_menu .card .card-body .price {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.special_menu .card .card-body .price div {
+  color: #74d174;
+  font-size: 24px;
+}
+
+.special_menu .card .card-body .plus_icon {
+  width: 60px;
+  height: 60px;
+  background-color: #74d174;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.special_menu .card .card-body .plus_icon i {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+/* Styles for medium-sized screens */
+@media (max-width: 992px) {
+  .special_menu .card {
+    width: 50%; /* Each card takes 1/2 of the available width */
+  }
+}
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+  .special_menu .card {
+    width: 100%; /* Each card takes the full width of the container */
+    margin-bottom: 1%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .special_menu .card {
+    width: 50%; /* Each card takes the full width of the container */
+    margin-bottom: 1%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .special_menu h2 {
+    font-size: 25px;
+  }
+
+  .special_menu h6 {
+    font-size: 12px;
+  }
+
+  .special_menu .card .card-body h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .special_menu .card .card-body h6 {
+    font-size: 12px;
+  }
+}

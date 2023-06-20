@@ -1,0 +1,93 @@
+.Specialchef {
+  margin-top: 5%;
+  position: relative;
+}
+
+.Specialchef h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.Specialchef h6 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+}
+
+.Specialchef .card .card-body h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.Specialchef .card .card-body h6 {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+}
+
+.Specialchef .leaf {
+  height: 400px;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+.Specialchef .chef img,
+.Specialchef .chef .chef_img3 {
+  height: 400px;
+  width: 350px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.Specialchef .chef .chef_img2 {
+  height: 400px;
+  width: 350px;
+  border-radius: 20px;
+  margin-top: 12%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 480px) {
+  .Specialchef {
+    margin-top: 12%;
+  }
+
+  .Specialchef h2 {
+    font-size: 25px;
+  }
+
+  .Specialchef h6 {
+    font-size: 12px;
+  }
+
+  .Specialchef .card .card-body h2 {
+    font-size: 24px;
+  }
+
+  .Specialchef .card .card-body h6 {
+    font-size: 12px;
+  }
+
+  .Specialchef .chef {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Specialchef .chef img {
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+  }
+
+  .Specialchef .chef_img2 {
+    margin-top: 2%;
+  }
+
+  .Specialchef .chef_img3 {
+    margin-top: 12%;
+  }
+}

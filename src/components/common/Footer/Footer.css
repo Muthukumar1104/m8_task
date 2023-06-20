@@ -1,0 +1,38 @@
+footer {
+  background: rgb(227, 240, 227);
+  padding: 15px 10px;
+}
+
+footer .container h5 {
+  color: black;
+}
+
+footer .container p {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+footer .container li {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+footer .container li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 200px;
+}
+
+footer .social-icons a {
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+footer .social-icons i {
+  font-size: 20px;
+  color: black;
+}
